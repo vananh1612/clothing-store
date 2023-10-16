@@ -1,0 +1,62 @@
+.main-y2k{
+    display: grid;
+   
+   max-width: 100%;
+    width: 1300px;
+    grid-template-columns: repeat(auto-fit ,minmax(50rem,1fr)  );
+    background-color: white;
+    grid-gap: 10px;
+
+}
+.bv-1{
+   
+    max-width: 100%;
+    width: 1300px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color:black;
+}
+.bv-1 p{
+    text-align: center;
+}
+.bv-1 i{
+    color: red;
+}
+ .main-y2k .img-1{
+    grid-column: 1/2;
+
+    
+}
+.img-1 img{
+    width: 80%;
+    height: 440px;
+    margin-top: 20px;
+    padding-left: 60px;
+    margin-left: 20px;
+}
+.img-2 img{
+    width: 70%;
+    height: 440px;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-left: 10px;
+}
+.bv-title-1{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 70px;
+    padding: 35px;
+}
+.bv-title{
+    margin-top: 70px;
+    grid-column: 1/2;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 35px;
+}
